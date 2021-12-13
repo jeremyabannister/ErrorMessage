@@ -7,4 +7,4 @@
 
 ///
 @_exported import ErrorMessage
-@_exported import FoundationTestToolkit
+@_exported import XCTestToolkit

@@ -12,8 +12,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/jeremyabannister/FoundationTestToolkit",
-            from: "0.1.0"
+            url: "https://github.com/jeremyabannister/XCTestToolkit",
+            from: "0.1.1"
         ),
     ],
     targets: [
@@ -23,7 +23,7 @@ let package = Package(
         ),
         .target(
             name: "ErrorMessageTestToolkit",
-            dependencies: ["ErrorMessage", "FoundationTestToolkit"]
+            dependencies: ["ErrorMessage", "XCTestToolkit"]
         ),
         .testTarget(
             name: "ErrorMessage-tests",

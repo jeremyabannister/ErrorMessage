@@ -2,30 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "FoundationTestToolkit",
-        "repositoryURL": "https://github.com/jeremyabannister/FoundationTestToolkit",
+        "package": "XCTestToolkit",
+        "repositoryURL": "https://github.com/jeremyabannister/XCTestToolkit",
         "state": {
           "branch": null,
-          "revision": "c99e21c53fe94c540cf703fa662cf55cd3edaca6",
-          "version": "0.1.0"
-        }
-      },
-      {
-        "package": "SingleTypeTestCase",
-        "repositoryURL": "https://github.com/jeremyabannister/SingleTypeTestCase",
-        "state": {
-          "branch": null,
-          "revision": "dc27986f20a91cf2acc0d537cabee98539dee40b",
+          "revision": "56a003f8a65a85c0e10cd5dc5402603490514d45",
           "version": "0.1.1"
-        }
-      },
-      {
-        "package": "XCTestTestToolkit",
-        "repositoryURL": "https://github.com/jeremyabannister/XCTestTestToolkit",
-        "state": {
-          "branch": null,
-          "revision": "85c3d97e4b3dd0bc7a1834e3fa08ee4061de3c51",
-          "version": "0.1.0"
         }
       }
     ]
