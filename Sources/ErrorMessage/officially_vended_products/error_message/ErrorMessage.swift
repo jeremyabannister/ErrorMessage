@@ -7,7 +7,7 @@
 
 ///
 public struct ErrorMessage: Hashable,
-                            Error,
+                            LocalizedError,
                             Codable,
                             CustomStringConvertible {
     
@@ -31,6 +31,15 @@ public extension ErrorMessage {
     ///
     static var blank: Self {
         .init("")
+    }
+}
+
+///
+public extension ErrorMessage {
+    
+    ///
+    var errorDescription: String? {
+        message
     }
 }
 
